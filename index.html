@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Bento</title>
+    <title>T-Pot</title>
     <link
       rel=" shortcut icon"
       type="image/png"
       href="assets/icons/favicon.png"
     />
     <link rel="stylesheet" href="app.css" />
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="assets/js/lucide.min.js"></script>
   </head>
 
   <!-- 
@@ -19,9 +19,6 @@
       -->
 
   <body class="">
-    <button id="themeButton">
-      <i id="themeIcon" icon-name="moon"></i>
-    </button>
     <div class="container">
       <!-- Clock and Greetings  -->
 
@@ -31,36 +28,8 @@
           <div id="separator" class=""></div>
           <div id="minutes" class=""></div>
         </div>
-        <div id="greetings" class=""></div>
+        <div id="greetings"></div>
       </div>
-
-      <!-- Date and Weather  -->
-
-      <div class="weatherBlock">
-        <div class="date">
-          <div id="month" class=""></div>
-          <div id="day" class=""></div>
-        </div>
-        <div class="weather">
-          <div class="weatherIcon">
-            <img src="assets/icons/OneDark/unknown.png" />
-          </div>
-          <div class="weatherValue">
-            <p class="">- °<span class="g">c</span></p>
-          </div>
-          <div class="weatherDescription">
-            <p class=""></p>
-          </div>
-        </div>
-      </div>
-
-      <!-- 
-        ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
-        ├┴┐│ │ │  │ │ ││││└─┐
-        └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘ 
-        -->
-
-      <div class="buttons" id="buttonsContainer"></div>
 
       <!-- 
         ┬  ┬┌─┐┌┬┐┌─┐
@@ -80,8 +49,6 @@
     <script src="assets/js/time.js"></script>
     <script src="assets/js/theme.js"></script>
     <script src="assets/js/greeting.js"></script>
-    <script src="assets/js/weather.js"></script>
-
     <script src="assets/js/cards.js"></script>
     <script src="assets/js/lists.js"></script>
     <script>

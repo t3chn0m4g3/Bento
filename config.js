@@ -12,7 +12,7 @@ const CONFIG = {
 
   // General
   name: 'John',
-  imageBackground: false,
+  imageBackground: true,
   openInNewTab: true,
   twelveHourFormat: false,
 
@@ -32,59 +32,13 @@ const CONFIG = {
   defaultLatitude: '37.775',
   defaultLongitude: '-122.419',
 
-  // Autochange
-  autoChangeTheme: true,
-
-  // Autochabge by OS
-  changeThemeByOS: false, 
-
-  // Autochange by hour options (24hrs format, string must be in: hh:mm)
-  changeThemeByHour: true,
-  hourDarkThemeActive: '18:30',
-  hourDarkThemeInactive: '07:00',
-
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
   // │  ├─┤├┬┘ ││└─┐
   // └─┘┴ ┴┴└──┴┘└─┘
 
   // Links
   cards: [
-    {
-      id: '1',
-      name: 'Github',
-      icon: 'github',
-      link: 'https://github.com/',
-    },
-    {
-      id: '2',
-      name: 'Mail',
-      icon: 'mail',
-      link: 'https://mail.protonmail.com/',
-    },
-    {
-      id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
-    },
-    {
-      id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
-    },
-    {
-      id: '5',
-      name: 'Reddit',
-      icon: 'glasses',
-      link: 'https://reddit.com',
-    },
-    {
-      id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
-    },
+  
   ],
 
   // ┬  ┬┌─┐┌┬┐┌─┐
@@ -92,46 +46,46 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
-  secondListIcon: 'coffee',
+  firstListIcon: 'home',
+  secondListIcon: 'external-link',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Cockpit',
+        link: '/cockpit.html',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Cyberchef',
+        link: '/cyberchef/',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Elasticvue',
+        link: '/elasticvue/',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Kibana',
+        link: '/kibana/',
+      },
+      {
+        name: 'Spiderfoot',
+        link: '/spiderfoot/',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'SecurityMeter',
+        link: 'https://sicherheitstacho.eu',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'T-Pot @ GitHub',
+        link: 'https://github.com/dtag-dev-sec/tpotce/',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
-      },
-      {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
-      },
+        name: 'T-Pot ReadMe',
+        link: 'https://github.com/telekom-security/tpotce/blob/master/README.md',
+      },      
     ],
   },
 };
