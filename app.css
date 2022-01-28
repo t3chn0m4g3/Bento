@@ -76,13 +76,13 @@ body {
 
 .card {
   background-color: var(--sbg);
-  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
 }
 
 .card:hover {
-  transform: translateY(-0.9rem);
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.35);
+  transform: translateY(-0.5rem);
+  box-shadow: 0 10px 10px rgba(226, 0, 116, 0.4);
 }
 
 .timeBlock {
@@ -92,13 +92,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.date {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
 }
 
 .clock {
@@ -113,17 +106,6 @@ body {
   font-size: var(--fsg);
   font-weight: bolder;
   color: var(--fg);
-}
-
-#month,
-#day {
-  font-size: var(--fsm);
-  font-weight: bold;
-  color: var(--fg);
-}
-
-#day {
-  margin-left: 20px;
 }
 
 #greetings {
@@ -159,7 +141,7 @@ body {
   margin-top: 1vh;
   padding: 8px 12px;
   border-radius: 5px;
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
   width: 80%;
 }
